@@ -1,0 +1,12 @@
+{
+  "name": "testLink",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --infixExts matrix,lp"
+  },
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "git@github.com:immidi/react-native.git#feature/infixExt"
+  }
+}
